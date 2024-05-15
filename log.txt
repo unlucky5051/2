@@ -1,0 +1,1601 @@
+root: 2024-05-08 09:45:22,767 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 09:45:22,954 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.14.130:5000
+werkzeug: 2024-05-08 09:45:22,954 INFO [33mPress CTRL+C to quit[0m
+werkzeug: 2024-05-08 09:45:22,993 INFO  * Restarting with stat
+root: 2024-05-08 09:45:23,283 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 09:45:23,314 WARNING  * Debugger is active!
+werkzeug: 2024-05-08 09:45:23,316 INFO  * Debugger PIN: 714-486-286
+root: 2024-05-08 09:45:42,993 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 09:45:43,027 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.14.130:5000
+werkzeug: 2024-05-08 09:45:43,027 INFO [33mPress CTRL+C to quit[0m
+werkzeug: 2024-05-08 09:45:43,028 INFO  * Restarting with stat
+root: 2024-05-08 09:45:43,290 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 09:45:43,313 WARNING  * Debugger is active!
+werkzeug: 2024-05-08 09:45:43,316 INFO  * Debugger PIN: 714-486-286
+root: 2024-05-08 09:45:53,477 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 09:45:53,510 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.14.130:5000
+werkzeug: 2024-05-08 09:45:53,510 INFO [33mPress CTRL+C to quit[0m
+werkzeug: 2024-05-08 09:45:53,510 INFO  * Restarting with stat
+root: 2024-05-08 09:45:54,083 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 09:45:54,108 WARNING  * Debugger is active!
+werkzeug: 2024-05-08 09:45:54,110 INFO  * Debugger PIN: 714-486-286
+root: 2024-05-08 09:47:53,615 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 09:47:53,646 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.14.130:5000
+werkzeug: 2024-05-08 09:47:53,646 INFO [33mPress CTRL+C to quit[0m
+werkzeug: 2024-05-08 09:47:53,646 INFO  * Restarting with stat
+root: 2024-05-08 09:47:53,886 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 09:47:53,913 WARNING  * Debugger is active!
+werkzeug: 2024-05-08 09:47:53,913 INFO  * Debugger PIN: 714-486-286
+werkzeug: 2024-05-08 09:48:13,165 INFO 127.0.0.1 - - [08/May/2024 09:48:13] "GET / HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:13,261 INFO 127.0.0.1 - - [08/May/2024 09:48:13] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+werkzeug: 2024-05-08 09:48:13,735 INFO 127.0.0.1 - - [08/May/2024 09:48:13] "GET /static/css/style.css HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:13,736 INFO 127.0.0.1 - - [08/May/2024 09:48:13] "GET /static/images/944845.png HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:13,748 INFO 127.0.0.1 - - [08/May/2024 09:48:13] "GET /static/images/administrator_solid_icon.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:13,767 INFO 127.0.0.1 - - [08/May/2024 09:48:13] "GET /static/images/background-blue.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:13,769 INFO 127.0.0.1 - - [08/May/2024 09:48:13] "GET /static/images/background-green.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:13,770 INFO 127.0.0.1 - - [08/May/2024 09:48:13] "GET /static/images/background-red.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:13,860 INFO 127.0.0.1 - - [08/May/2024 09:48:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug: 2024-05-08 09:48:16,350 INFO 127.0.0.1 - - [08/May/2024 09:48:16] "[33mGET /lighting HTTP/1.1[0m" 404 -
+werkzeug: 2024-05-08 09:48:18,863 INFO 127.0.0.1 - - [08/May/2024 09:48:18] "GET /climate HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:18,903 INFO 127.0.0.1 - - [08/May/2024 09:48:18] "GET /static/images/thermometer.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:18,907 INFO 127.0.0.1 - - [08/May/2024 09:48:18] "GET /static/images/radiator_icon.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:18,912 INFO 127.0.0.1 - - [08/May/2024 09:48:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:48:22,872 INFO 127.0.0.1 - - [08/May/2024 09:48:22] "GET /safety HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:22,913 INFO 127.0.0.1 - - [08/May/2024 09:48:22] "GET /static/images/motion_sensor_icon.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:22,918 INFO 127.0.0.1 - - [08/May/2024 09:48:22] "GET /static/images/video_system.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:22,925 INFO 127.0.0.1 - - [08/May/2024 09:48:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:48:22,929 INFO 127.0.0.1 - - [08/May/2024 09:48:22] "GET /static/images/image_video_screen.png HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:35,866 INFO 127.0.0.1 - - [08/May/2024 09:48:35] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+werkzeug: 2024-05-08 09:48:35,907 INFO 127.0.0.1 - - [08/May/2024 09:48:35] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:35,908 INFO 127.0.0.1 - - [08/May/2024 09:48:35] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:35,921 INFO 127.0.0.1 - - [08/May/2024 09:48:35] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:48:36,026 INFO 127.0.0.1 - - [08/May/2024 09:48:36] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:49:20,612 INFO 127.0.0.1 - - [08/May/2024 09:49:20] "[33mGET /lighting HTTP/1.1[0m" 404 -
+werkzeug: 2024-05-08 09:49:23,016 INFO 127.0.0.1 - - [08/May/2024 09:49:23] "GET /climate HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:49:23,051 INFO 127.0.0.1 - - [08/May/2024 09:49:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:49:23,064 INFO 127.0.0.1 - - [08/May/2024 09:49:23] "[36mGET /static/images/thermometer.svg HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:49:23,064 INFO 127.0.0.1 - - [08/May/2024 09:49:23] "[36mGET /static/images/radiator_icon.svg HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:49:27,956 INFO 127.0.0.1 - - [08/May/2024 09:49:27] "GET /safety HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:49:27,997 INFO 127.0.0.1 - - [08/May/2024 09:49:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:49:28,003 INFO 127.0.0.1 - - [08/May/2024 09:49:28] "[36mGET /static/images/motion_sensor_icon.svg HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:49:28,003 INFO 127.0.0.1 - - [08/May/2024 09:49:28] "[36mGET /static/images/video_system.svg HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:49:28,008 INFO 127.0.0.1 - - [08/May/2024 09:49:28] "[36mGET /static/images/image_video_screen.png HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:51:09,589 INFO  * Detected change in 'D:\\PycharmProjects\\pythonSiteToOffice\\app.py', reloading
+werkzeug: 2024-05-08 09:51:09,635 INFO  * Restarting with stat
+root: 2024-05-08 09:51:09,993 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 09:51:10,019 WARNING  * Debugger is active!
+werkzeug: 2024-05-08 09:51:10,021 INFO  * Debugger PIN: 714-486-286
+werkzeug: 2024-05-08 09:51:10,985 INFO 127.0.0.1 - - [08/May/2024 09:51:10] "GET /lighting HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:51:11,494 INFO 127.0.0.1 - - [08/May/2024 09:51:11] "GET /static/images/lighting_1.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:51:11,494 INFO 127.0.0.1 - - [08/May/2024 09:51:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:51:11,495 INFO 127.0.0.1 - - [08/May/2024 09:51:11] "GET /static/images/lighting_2.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:51:16,975 INFO 127.0.0.1 - - [08/May/2024 09:51:16] "GET /lighting HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:51:17,014 INFO 127.0.0.1 - - [08/May/2024 09:51:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:51:17,018 INFO 127.0.0.1 - - [08/May/2024 09:51:17] "[36mGET /static/images/lighting_2.svg HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:51:17,022 INFO 127.0.0.1 - - [08/May/2024 09:51:17] "[36mGET /static/images/lighting_1.svg HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-08 09:51:24,452 INFO 127.0.0.1 - - [08/May/2024 09:51:24] "[35m[1mGET /lighting/215T HTTP/1.1[0m" 500 -
+werkzeug: 2024-05-08 09:51:24,502 INFO 127.0.0.1 - - [08/May/2024 09:51:24] "GET /lighting/215T?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:51:24,503 INFO 127.0.0.1 - - [08/May/2024 09:51:24] "GET /lighting/215T?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:51:24,516 INFO 127.0.0.1 - - [08/May/2024 09:51:24] "GET /lighting/215T?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+werkzeug: 2024-05-08 09:51:24,614 INFO 127.0.0.1 - - [08/May/2024 09:51:24] "[36mGET /lighting/215T?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+root: 2024-05-08 09:56:28,621 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+root: 2024-05-08 09:57:58,881 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+root: 2024-05-08 10:38:29,314 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+root: 2024-05-08 10:40:02,352 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 10:40:02,388 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.14.130:5000
+werkzeug: 2024-05-08 10:40:02,389 INFO [33mPress CTRL+C to quit[0m
+werkzeug: 2024-05-08 10:40:02,390 INFO  * Restarting with stat
+root: 2024-05-08 10:40:02,663 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 10:40:02,690 WARNING  * Debugger is active!
+werkzeug: 2024-05-08 10:40:02,693 INFO  * Debugger PIN: 714-486-286
+root: 2024-05-08 10:40:55,556 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 10:40:55,595 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.14.130:5000
+werkzeug: 2024-05-08 10:40:55,595 INFO [33mPress CTRL+C to quit[0m
+werkzeug: 2024-05-08 10:40:55,596 INFO  * Restarting with stat
+root: 2024-05-08 10:40:56,227 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-08 10:40:56,252 WARNING  * Debugger is active!
+werkzeug: 2024-05-08 10:40:56,254 INFO  * Debugger PIN: 714-486-286
+root: 2024-05-13 12:24:31,768 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 12:24:32,268 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.14.130:5000
+werkzeug: 2024-05-13 12:24:32,268 INFO [33mPress CTRL+C to quit[0m
+werkzeug: 2024-05-13 12:24:32,286 INFO  * Restarting with stat
+root: 2024-05-13 12:24:33,012 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 12:24:33,089 WARNING  * Debugger is active!
+werkzeug: 2024-05-13 12:24:33,092 INFO  * Debugger PIN: 714-486-286
+root: 2024-05-13 12:25:27,879 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 12:25:27,915 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.14.130:5000
+werkzeug: 2024-05-13 12:25:27,915 INFO [33mPress CTRL+C to quit[0m
+werkzeug: 2024-05-13 12:25:27,916 INFO  * Restarting with stat
+root: 2024-05-13 12:25:28,328 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 12:25:28,401 WARNING  * Debugger is active!
+werkzeug: 2024-05-13 12:25:28,403 INFO  * Debugger PIN: 714-486-286
+root: 2024-05-13 12:35:29,195 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 12:35:29,230 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.14.130:5000
+werkzeug: 2024-05-13 12:35:29,230 INFO [33mPress CTRL+C to quit[0m
+werkzeug: 2024-05-13 12:35:29,231 INFO  * Restarting with stat
+root: 2024-05-13 12:35:29,986 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 12:35:30,021 WARNING  * Debugger is active!
+werkzeug: 2024-05-13 12:35:30,043 INFO  * Debugger PIN: 714-486-286
+root: 2024-05-13 12:55:56,824 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 12:55:56,949 INFO  * Detected change in 'D:\\PycharmProjects\\pythonSiteToOffice\\dist\\Controllers\\LampController.py', reloading
+werkzeug: 2024-05-13 12:55:57,133 INFO  * Restarting with stat
+root: 2024-05-13 12:55:57,521 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 12:55:57,677 WARNING  * Debugger is active!
+werkzeug: 2024-05-13 12:55:57,679 INFO  * Debugger PIN: 714-486-286
+root: 2024-05-13 12:57:27,769 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 12:57:28,067 INFO  * Detected change in 'D:\\PycharmProjects\\pythonSiteToOffice\\dist\\Controllers\\LampController.py', reloading
+werkzeug: 2024-05-13 12:57:28,139 INFO  * Restarting with stat
+root: 2024-05-13 12:57:28,556 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 12:57:28,735 WARNING  * Debugger is active!
+werkzeug: 2024-05-13 12:57:28,936 INFO  * Debugger PIN: 714-486-286
+werkzeug: 2024-05-13 12:57:46,438 INFO  * Detected change in 'D:\\PycharmProjects\\pythonSiteToOffice\\dist\\Controllers\\LampController.py', reloading
+werkzeug: 2024-05-13 12:57:46,494 INFO  * Restarting with stat
+root: 2024-05-13 12:57:46,629 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+root: 2024-05-13 12:57:46,928 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 12:57:46,954 WARNING  * Debugger is active!
+werkzeug: 2024-05-13 12:57:46,956 INFO  * Debugger PIN: 714-486-286
+root: 2024-05-13 13:00:42,183 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 13:00:42,219 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.14.130:5000
+werkzeug: 2024-05-13 13:00:42,219 INFO [33mPress CTRL+C to quit[0m
+werkzeug: 2024-05-13 13:00:42,219 INFO  * Restarting with stat
+root: 2024-05-13 13:00:42,536 ERROR Œ¯Ë·Í‡
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\pythonSiteToOffice\dist\Connection\connection_peewee.py", line 32, in connect_peewee
+    connect.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2440, in connect
+    self._initialize_connection(self._state.conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2292, in __exit__
+    reraise(new_type, new_type(*exc_args), traceback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 168, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 2439, in connect
+    self._state.set_connection(self._connect())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\peewee.py", line 3128, in _connect
+    return mysql.connect(db=self.database, **self.connect_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 954, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+peewee.OperationalError: (1045, "Access denied for user 'BesM1234_Cabinet'@'10.11.13.15' (using password: YES)")
+werkzeug: 2024-05-13 13:00:42,560 WARNING  * Debugger is active!
+werkzeug: 2024-05-13 13:00:42,562 INFO  * Debugger PIN: 714-486-286
+werkzeug: 2024-05-13 13:01:01,621 INFO 127.0.0.1 - - [13/May/2024 13:01:01] "GET /test HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:02,163 INFO 127.0.0.1 - - [13/May/2024 13:01:02] "GET /static/css/style.css HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:02,232 INFO 127.0.0.1 - - [13/May/2024 13:01:02] "GET /static/images/alert-bell.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:02,253 INFO 127.0.0.1 - - [13/May/2024 13:01:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug: 2024-05-13 13:01:13,504 INFO 127.0.0.1 - - [13/May/2024 13:01:13] "GET / HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:13,541 INFO 127.0.0.1 - - [13/May/2024 13:01:13] "GET /static/images/944845.png HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:13,556 INFO 127.0.0.1 - - [13/May/2024 13:01:13] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+werkzeug: 2024-05-13 13:01:13,564 INFO 127.0.0.1 - - [13/May/2024 13:01:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-13 13:01:13,582 INFO 127.0.0.1 - - [13/May/2024 13:01:13] "GET /static/images/administrator_solid_icon.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:13,617 INFO 127.0.0.1 - - [13/May/2024 13:01:13] "GET /static/images/background-blue.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:13,621 INFO 127.0.0.1 - - [13/May/2024 13:01:13] "GET /static/images/background-green.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:13,638 INFO 127.0.0.1 - - [13/May/2024 13:01:13] "GET /static/images/background-red.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:18,662 INFO 127.0.0.1 - - [13/May/2024 13:01:18] "GET /lighting HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:18,705 INFO 127.0.0.1 - - [13/May/2024 13:01:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug: 2024-05-13 13:01:18,712 INFO 127.0.0.1 - - [13/May/2024 13:01:18] "GET /static/images/lighting_1.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:18,712 INFO 127.0.0.1 - - [13/May/2024 13:01:18] "GET /static/images/lighting_2.svg HTTP/1.1" 200 -
+werkzeug: 2024-05-13 13:01:20,837 INFO 127.0.0.1 - - [13/May/2024 13:01:20] "[31m[1mPOST /lighting HTTP/1.1[0m" 405 -
+werkzeug: 2024-05-13 13:01:27,418 INFO 127.0.0.1 - - [13/May/2024 13:01:27] "[31m[1mPOST /lighting HTTP/1.1[0m" 405 -

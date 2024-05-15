@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static',filename = './css/style.css') }}">
+
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <header class="container">
+        <div class="row justifi-content-between">
+            {% block btn_home %}{% endblock %}
+            <img class="logo" src="../static/images/{% block logo_1 %} {% endblock %}" alt="">
+            <div class="my-header">
+                <h1>Система умный кабинет</h1>
+                <h2>{% block header_h2 %}{% endblock %}</h2>
+            </div>
+            <img class="logo-2" src="../static/images/{% block logo_2 %} {% endblock %}" alt="">
+            {% block link_admin_logo %}{% endblock %}
+        </div>
+
+    </header>
+    <section class="content">
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="row justifi-content-evenly margin-top-50-px padding-top-3">
+            <h3>Введите номер кабинета</h3>
+            <input type="text" name="number-cabinet" class="my-input" id="" placeholder="Номер кабинета">
+            <!-- Нижнее меню -->
+            <ul>
+                <li><a href="/">Главная страница</a></li>
+                <li><a href="/lighting">Освещение</a></li>
+                <li><a href="/climate">Климат</a></li>
+                <li><a href="/safety">Безопасность</a></li>
+            </ul>
+
+        </div>
+        <div class="copy">
+            <p>&ZHURAVEL VICTOR</p>
+        </div>
+
+    </footer>
+</body>
+</html>

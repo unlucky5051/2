@@ -1,0 +1,47 @@
+<!--поключить базовую страницу-->
+{% extends 'base.html' %}
+
+
+{% block title %}Главная страница Система умный кабинет{% endblock %}
+
+{% block logo_1 %}944845.png{% endblock %}
+
+{% block link_admin_logo %}
+<a href="/admin">
+    <img class="logo-2" src="../static/images/administrator_solid_icon.svg" alt="">
+</a>
+
+{% endblock %}
+
+{% block header_h2 %}Система управления безопасностью, освещением и климатом в кабинетах ГБПОУ ЯНАО “ЯМК”{% endblock %}
+
+{% block content %}
+        <form method="POST">
+            <div class="row margin-r-25 justifi-content-evenly margin-top-50-px margin-botton-50-px">
+                <!-- Форма ввода номера кабинета -->
+
+                <h3>Введите номер кабинета</h3>
+                <input type="text" name="number-cabinet" class="my-input" id="" placeholder="Номер кабинета">
+
+            </div>
+
+            <div class="row justifi-content-evenly">
+                <!-- Кнопки перехода -->
+                <a href="/lighting">
+                    <div class="my-form background-balue background-balue-svg">
+                        <p>Освещение</p>
+                    </div>
+                </a>
+                <a href="/climate">
+                    <div class="my-form background-green background-green-svg">
+                        <p>Климат</p>
+                    </div>
+                </a>
+                <a href="/safety">
+                    <div class="my-form background-red background-red-svg">
+                        <p>Безопасность</p>
+                    </div>
+                </a>
+            </div>
+    </form>
+{% endblock %}

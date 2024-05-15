@@ -1,0 +1,49 @@
+<!--поключить базовую страницу-->
+{% extends 'base.html' %}
+{% block title %}Климат{% endblock %}
+{% block logo_1 %}thermometer.svg{% endblock %}
+{% block logo_2 %}radiator_icon.svg{% endblock %}
+{% block header_h2 %}Микроклимат в кабинете{% endblock %}
+
+
+ {% block content %}
+ <div class="row">
+                <!-- Колонка -->
+                <div class="column">
+                    <h2>Датчики</h2>
+                    <div class="row justifi-content-between">
+                        <p class="text-title">Температура</p>
+                        <p>26 С</p>
+
+                    </div>
+                    <div class="row justifi-content-between">
+                        <p class="text-title">Влажность</p>
+                        <p>40%</p>
+
+                    </div>
+
+                </div>
+                <!-- Колонка -->
+                <div class="column">
+                    <h2>Радиаторы отопления</h2>
+                    <div class="row justifi-content-between">
+                        <p class="text-title">Первый радиатор</p>
+                        <p>20С</p>
+                        <p>Уровень 0</p>
+
+                    </div>
+                    <div class="row justifi-content-between">
+                        <p class="text-title">Второй радитор</p>
+                        <p>30С</p>
+                        <p>Уровень 3</p>
+
+                    </div>
+                    <div class="row justifi-content-between">
+                        <p class="text-title">Третий радиатор</p>
+                        <p>50С</p>
+                        <p>Уровень 5</p>
+
+                    </div>
+                </div>
+            </div>
+{% endblock %}
